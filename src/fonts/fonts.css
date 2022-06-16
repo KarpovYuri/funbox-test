@@ -1,23 +1,7 @@
 @font-face {
-  src: url(../fonts/Inter-Regular.woff2) format('woff2'),
-    url(../fonts/Inter-Regular.woff) format('woff'),
-    url(../fonts/Inter-Regular.ttf) format('truetype');
-  font-family: 'Inter';
-  font-weight: normal;
-}
-
-@font-face {
-  src: url(../fonts/Inter-Medium.woff2) format('woff2'),
-    url(../fonts/Inter-Medium.woff) format('woff'),
-    url(../fonts/Inter-Medium.ttf) format('truetype');
-  font-family: 'Inter';
-  font-weight: 500;
-}
-
-@font-face {
-  src: url(../fonts/Inter-Black.woff2) format('woff2'),
-    url(../fonts/Inter-Black.woff) format('woff'),
-    url(../fonts/Inter-Black.ttf) format('truetype');
-  font-family: 'Inter';
-  font-weight: 900;
+  src: url(../fonts/Exo20-Thin.woff2) format('woff2'),
+    url(../fonts/Exo20-Thin.woff) format('woff'),
+    url(../fonts/Exo20-Thin.otf) format('opentype');
+  font-family: 'Exo2.0';
+  font-weight: 100;
 }
