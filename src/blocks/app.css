@@ -1,0 +1,17 @@
+.app__header {
+  position: relative;
+  font-family: 'Exo2.0', sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 44px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.app__cards {
+  display: flex;
+  justify-content: space-around;
+  min-width: 1280px;
+  margin-top: 24px;
+}

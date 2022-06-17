@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from './header.jsx'
+import Header from './header.jsx';
+import Cards from './cards.jsx'
 
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
   return (
     <div className='app'>
       <Header />
-
+      <Cards />
     </div>
   );
 }

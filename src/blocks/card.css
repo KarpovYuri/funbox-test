@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  width: 320px;
+  height: 480px;
+  background-image: url(../images/card-bg.png);
+  cursor: pointer;
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.card__border {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card__text-container {
+  position: absolute;
+  top: 21px;
+  left: 51px;
+}
+
+.card__description {
+  margin: 15px 0 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666;
+}
+
+.card__slogan {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.card__title {
+  margin: 5px 0 0 0;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000;
+}
+
+.card__taste {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.card__buy {
+  position: relative;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+  margin: 14px 0 0;
+}
+
+.card__link {
+  font-weight: 700;
+  color: #1698D9;
+  text-decoration: none;
+  border-bottom: 1px dashed #1698D9;
+}

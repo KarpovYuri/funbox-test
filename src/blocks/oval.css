@@ -1,0 +1,23 @@
+.oval {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  width: 80px;
+  height: 80px;
+  background-color: #1698D9;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
+
+.oval__weight {
+  font-size: 42px;
+  margin: 5px 0 0;
+}
+
+.oval__unit {
+  font-size: 21px;
+  margin: 0;
+}
