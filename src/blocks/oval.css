@@ -4,8 +4,6 @@
   bottom: 16px;
   width: 80px;
   height: 80px;
-  background-color: #1698D9;
-  border-radius: 50%;
   text-align: center;
   color: #fff;
   font-family: 'Trebuchet MS', sans-serif;
@@ -13,12 +11,18 @@
 }
 
 .oval__weight {
+  width: 100%;
+  position: absolute;
+  top: 0;
   font-size: 42px;
   margin: 13px 0 0;
   line-height: 36px;
 }
 
 .oval__unit {
+  width: 100%;
+  position: absolute;
+  top: 50px;
   font-size: 21px;
   margin: 0;
 }
