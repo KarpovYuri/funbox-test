@@ -22,3 +22,7 @@
   font-size: 21px;
   margin: 0;
 }
+
+.oval_selected {
+  background-color: #E52E7A;
+}

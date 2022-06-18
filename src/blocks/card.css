@@ -36,6 +36,10 @@
   margin: 1px 0 0;
 }
 
+.card__slogan_selected {
+  color: #E52E7A;
+}
+
 .card__title {
   margin: 6px 0 0 0;
   transform: translateX(-3px);
@@ -67,8 +71,17 @@
   color: #1698D9;
   text-decoration: none;
   border-bottom: 1px dashed #1698D9;
+  outline: none;
+}
+
+.card__link_disabled {
+  display: none;
 }
 
 .card__point {
   color: #1698D9;
+}
+
+.card__point_white {
+  color: #fff;
 }

@@ -6,7 +6,9 @@ const data = [
     gift: 0,
     gift_text: 'мышь',
     weight: '0,5',
-    isSatisfied: false
+    isSatisfied: false,
+    signature: 'Печень утки разварная с артишоками',
+    isDisabled: false
   },
   {
     id: 2,
@@ -15,7 +17,9 @@ const data = [
     gift: 2,
     gift_text: 'мыши',
     weight: '2',
-    isSatisfied: false
+    isSatisfied: false,
+    signature: 'Головы щучьи с чесноком да свежайшая сёмгушка',
+    isDisabled: false
   },
   {
     id: 3,
@@ -24,7 +28,9 @@ const data = [
     gift: 5,
     gift_text: 'мышей',
     weight: '5',
-    isSatisfied: true
+    isSatisfied: true,
+    signature: 'Филе из цыплят с трюфелями в бульоне',
+    isDisabled: false
   }
 ]
 
