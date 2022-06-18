@@ -1,3 +1,7 @@
+.app {
+  margin: 36px 0 67px;
+}
+
 .app__header {
   position: relative;
   font-family: 'Exo2.0', sans-serif;
@@ -7,14 +11,21 @@
   color: white;
   text-align: center;
   margin: 0;
+  padding: 0 20px;
 }
 
 .app__cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 80px;
-  min-width: 1280px;
   margin: 24px 0 0;
   padding: 0;
   list-style-type: none;
+}
+
+@media (min-width: 480px) and (max-width: 1279px) {
+  .app__cards {
+    padding: 0 80px;
+  }
 }
