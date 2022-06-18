@@ -14,7 +14,8 @@
 
 .oval__weight {
   font-size: 42px;
-  margin: 5px 0 0;
+  margin: 13px 0 0;
+  line-height: 36px;
 }
 
 .oval__unit {

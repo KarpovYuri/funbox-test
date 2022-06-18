@@ -11,7 +11,10 @@
 
 .app__cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 80px;
   min-width: 1280px;
-  margin-top: 24px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style-type: none;
 }

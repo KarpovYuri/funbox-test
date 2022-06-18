@@ -21,6 +21,7 @@
 }
 
 .card__description {
+  max-width: 185px;
   margin: 15px 0 0 0;
   font-weight: 400;
   font-size: 14px;
@@ -32,11 +33,12 @@
   font-weight: 400;
   font-size: 16px;
   color: #666;
-  margin: 0;
+  margin: 1px 0 0;
 }
 
 .card__title {
-  margin: 5px 0 0 0;
+  margin: 6px 0 0 0;
+  transform: translateX(-3px);
   font-weight: 700;
   font-size: 48px;
   color: #000;
@@ -49,14 +51,15 @@
   color: #000;
 }
 
-.card__buy {
+.card__signature {
   position: relative;
   font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   font-weight: 400;
   font-size: 13px;
   color: #fff;
-  margin: 14px 0 0;
+  margin: 16px 0 0;
+  letter-spacing: -0.015em;
 }
 
 .card__link {
@@ -64,4 +67,8 @@
   color: #1698D9;
   text-decoration: none;
   border-bottom: 1px dashed #1698D9;
+}
+
+.card__point {
+  color: #1698D9;
 }

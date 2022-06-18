@@ -1,7 +1,7 @@
-const Card = () => {
+const Card = ({ taste, portions, gift, gift_text, weight, isSatisfied }) => {
 
   return (
-    <div>
+    <>
       <div className='card'>
         <svg className='card__border' width="320" height="480" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg">
           <mask id="path-1-inside-1_39_25" fill="white">
@@ -12,19 +12,20 @@ const Card = () => {
         <div className='card__text-container'>
           <p className='card__slogan' >Сказочное заморское яство</p>
           <h2 className='card__title'>Нямушка</h2>
-          <p className='card__taste'>с рыбой</p>
+          <p className='card__taste'>{taste}</p>
           <p className='card__description'>
-            <strong>40</strong> порций<br />
-            <strong>2</strong> мыши в подарок
+            <strong>{portions}</strong> порций<br />
+            <strong>{gift === 0 ? '' : gift}</strong> {gift_text} в подарок {isSatisfied ? 'заказчик доволен' : ''}
           </p>
         </div>
         <div className='oval'>
-          <p className='oval__weight'>0,5</p>
+          <p className='oval__weight'>{weight}</p>
           <p className='oval__unit'>кг</p>
         </div>
       </div>
-      <p className='card__buy'>Чего сидишь? Порадуй, котэ, <a href='#' className='card__link'>купи.</a></p>
-    </div>
+      <p className='card__signature'>Чего сидишь? Порадуй, котэ, <a href='#' className='card__link'>купи</a>
+        <span className='card__point' >.</span></p>
+    </>
   );
 }
 
