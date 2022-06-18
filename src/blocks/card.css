@@ -94,6 +94,11 @@
   outline: none;
 }
 
+.card__link:hover {
+  color: #2EA8E6;
+  border-bottom: 1px dashed #2EA8E6;
+}
+
 .card__link_disabled {
   display: none;
 }
@@ -104,4 +109,12 @@
 
 .card__point_disabled {
   display: none;
+}
+
+.card__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

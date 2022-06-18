@@ -21,19 +21,27 @@ const Card = ({ taste, portions, gift, gift_text, weight, isSatisfied, signature
     setIsSelected(!isSelected);
     if (isSignature === 'Чего сидишь? Порадуй, котэ, ') {
       setIsSignature(signature);
-      setIsColor('#E52E7A');
+      setIsColor('#D91667');
     } else {
       setIsSignature('Чего сидишь? Порадуй, котэ, ');
       setIsColor('#1698D9');
     }
   }
 
+  function handelMousOver() {
+    if (isColor === '#1698D9') setIsColor('#2EA8E6');
+    if (isColor === '#D91667') setIsColor('#E52E7A');
+  }
+
+  function handelMousOut() {
+    if (isColor === '#2EA8E6') setIsColor('#1698D9');
+    if (isColor === '#E52E7A') setIsColor('#D91667');
+  }
+
+
   return (
     <>
-      <div
-        className={`card ${isDisabled ? 'card_disabled' : ''}`}
-        onClick={isDisabled ? () => false : handleCardClick}
-      >
+      <div className={`card ${isDisabled ? 'card_disabled' : ''}`}>
         <svg className='card__border' width="320" height="480" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg">
           <mask id="path-1-inside-1_39_25" fill="white">
             <path fillRule="evenodd" clipRule="evenodd" d="M0 42.6762V468C0 474.627 5.37259 480 12 480H308C314.627 480 320 474.627 320 468V12C320 5.37258 314.627 0 308 0H42.6762L0 42.6762Z" />
@@ -58,6 +66,11 @@ const Card = ({ taste, portions, gift, gift_text, weight, isSatisfied, signature
           <p className='oval__weight'>{weight}</p>
           <p className='oval__unit'>кг</p>
         </div>
+        <div className='card__hover'
+          onClick={isDisabled ? () => false : handleCardClick}
+          onMouseOver={handelMousOver}
+          onMouseOut={handelMousOut}
+        ></div>
       </div>
       <p className={`card__signature ${isDisabled ? 'card__signature_disabled' : ''}`}>{isSignature}
         <a href='#'
