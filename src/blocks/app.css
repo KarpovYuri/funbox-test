@@ -1,5 +1,6 @@
 .app {
   margin: 36px 0 67px;
+  max-width: 1280px;
 }
 
 .app__header {
